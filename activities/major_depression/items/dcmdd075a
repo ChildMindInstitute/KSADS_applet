@@ -11,5 +11,5 @@
         "inputType": "text"
     },
     "question": "Delusions Example 1:",
-    "schema:description": "EXAMPLE"
+    "description": "EXAMPLE"
 }

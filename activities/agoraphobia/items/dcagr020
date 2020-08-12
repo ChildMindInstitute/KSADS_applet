@@ -15,28 +15,28 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 0,
-                "schema:name": "Never",
+                "value": 0,
+                "name": "Never",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 1,
-                "schema:name": "Sometimes",
+                "value": 1,
+                "name": "Sometimes",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Almost Always",
+                "value": 2,
+                "name": "Almost Always",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 7,
-                "schema:name": "Not Applicable",
+                "value": 7,
+                "name": "Not Applicable",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "Unknown",
+                "value": 9,
+                "name": "Unknown",
                 "@type": "schema:option"
             }
         ]

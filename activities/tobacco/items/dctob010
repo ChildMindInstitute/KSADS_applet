@@ -11,43 +11,43 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "Everyday or almost everyday",
+                "value": 1,
+                "name": "Everyday or almost everyday",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "3-5 times per week",
+                "value": 2,
+                "name": "3-5 times per week",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "1-2 times per week",
+                "value": 3,
+                "name": "1-2 times per week",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 4,
-                "schema:name": "2-3 times per month",
+                "value": 4,
+                "name": "2-3 times per month",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 5,
-                "schema:name": "Once per month",
+                "value": 5,
+                "name": "Once per month",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 6,
-                "schema:name": "Less than once a month",
+                "value": 6,
+                "name": "Less than once a month",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 7,
-                "schema:name": "Not at all",
+                "value": 7,
+                "name": "Not at all",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "Unknown",
+                "value": 9,
+                "name": "Unknown",
                 "@type": "schema:option"
             }
         ]

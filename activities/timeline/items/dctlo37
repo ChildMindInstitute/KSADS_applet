@@ -11,5 +11,5 @@
         "inputType": "text"
     },
     "question": "Other subject 3 (list here)",
-    "schema:description": "OTHER SUBJECT 3"
+    "description": "OTHER SUBJECT 3"
 }

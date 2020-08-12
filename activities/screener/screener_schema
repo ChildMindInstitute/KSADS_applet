@@ -5,10 +5,10 @@
     ],
     "@type": "reproschema:Activity",
     "@id": "screener_schema",
-    "skos:prefLabel": "Screener",
-    "skos:altLabel": "screener_schema",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Screener",
+    "altLabel": "screener_schema",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "scoringLogic": {},
     "variableMap": [
         {

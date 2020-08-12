@@ -5,10 +5,10 @@
     ],
     "@type": "reproschema:Activity",
     "@id": "oppositional_defiant_disorder_schema",
-    "skos:prefLabel": "Oppositional Defiant Disorder",
-    "skos:altLabel": "oppositional_defiant_disorder_schema",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Oppositional Defiant Disorder",
+    "altLabel": "oppositional_defiant_disorder_schema",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "scoringLogic": {},
     "variableMap": [
         {

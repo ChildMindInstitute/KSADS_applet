@@ -11,36 +11,36 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "once",
+                "value": 1,
+                "name": "once",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "twice",
+                "value": 2,
+                "name": "twice",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "three",
+                "value": 3,
+                "name": "three",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 4,
-                "schema:name": "four",
+                "value": 4,
+                "name": "four",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 5,
-                "schema:name": "five",
+                "value": 5,
+                "name": "five",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 6,
-                "schema:name": "six or more",
+                "value": 6,
+                "name": "six or more",
                 "@type": "schema:option"
             }
         ]
     },
-    "schema:description": "TIMES"
+    "description": "TIMES"
 }

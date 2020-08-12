@@ -14,23 +14,23 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "Above Average",
+                "value": 1,
+                "name": "Above Average",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Average",
+                "value": 2,
+                "name": "Average",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "Below Average",
+                "value": 3,
+                "name": "Below Average",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 4,
-                "schema:name": "Failing",
+                "value": 4,
+                "name": "Failing",
                 "@type": "schema:option"
             }
         ]

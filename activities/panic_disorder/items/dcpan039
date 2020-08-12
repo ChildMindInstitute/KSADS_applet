@@ -14,25 +14,25 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 0,
-                "schema:name": "No Avoidance",
+                "value": 0,
+                "name": "No Avoidance",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 1,
-                "schema:name": "Mild (no avoidance/endurance with dread only",
+                "value": 1,
+                "name": "Mild (no avoidance/endurance with dread only",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Moderate (activities limited)",
+                "value": 2,
+                "name": "Moderate (activities limited)",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "Severe (housebound)| 9",
+                "value": 3,
+                "name": "Severe (housebound)| 9",
                 "@type": "schema:option",
-                "schema:image": "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH2/master/images/Unknown.png"
+                "image": "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH2/master/images/Unknown.png"
             }
         ]
     }

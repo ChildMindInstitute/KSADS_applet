@@ -8,5 +8,5 @@
         "inputType": "text"
     },
     "question": "How many days of school did you miss because of your difficulties with attention or overactivity? (lifetime)",
-    "schema:description": "DAYS"
+    "description": "DAYS"
 }

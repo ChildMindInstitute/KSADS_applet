@@ -14,23 +14,23 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "Before",
+                "value": 1,
+                "name": "Before",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "During",
+                "value": 2,
+                "name": "During",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "After",
+                "value": 3,
+                "name": "After",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "Don't know",
+                "value": 9,
+                "name": "Don't know",
                 "@type": "schema:option"
             }
         ]

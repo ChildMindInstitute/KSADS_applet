@@ -14,33 +14,33 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "Only once or twice ever",
+                "value": 1,
+                "name": "Only once or twice ever",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Less than once a month",
+                "value": 2,
+                "name": "Less than once a month",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "Once a month",
+                "value": 3,
+                "name": "Once a month",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 4,
-                "schema:name": "Once a week",
+                "value": 4,
+                "name": "Once a week",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 5,
-                "schema:name": "2-4 days a week",
+                "value": 5,
+                "name": "2-4 days a week",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 6,
-                "schema:name": "5-7 days a week",
+                "value": 6,
+                "name": "5-7 days a week",
                 "@type": "schema:option"
             }
         ]

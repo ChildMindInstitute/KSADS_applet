@@ -14,33 +14,33 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "7 or fewer hours per week",
+                "value": 1,
+                "name": "7 or fewer hours per week",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "8-14 hours per week",
+                "value": 2,
+                "name": "8-14 hours per week",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "15-21 hours per week",
+                "value": 3,
+                "name": "15-21 hours per week",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 4,
-                "schema:name": "22-35 hours per week",
+                "value": 4,
+                "name": "22-35 hours per week",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 5,
-                "schema:name": "Greater than 35 hours per week",
+                "value": 5,
+                "name": "Greater than 35 hours per week",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "Unknown",
+                "value": 9,
+                "name": "Unknown",
                 "@type": "schema:option"
             }
         ]

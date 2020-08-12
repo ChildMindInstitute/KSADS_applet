@@ -14,23 +14,23 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 7,
-                "schema:name": "N/A",
+                "value": 7,
+                "name": "N/A",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 0,
-                "schema:name": "No",
+                "value": 0,
+                "name": "No",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 1,
-                "schema:name": "Yes",
+                "value": 1,
+                "name": "Yes",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "Unknown",
+                "value": 9,
+                "name": "Unknown",
                 "@type": "schema:option"
             }
         ]

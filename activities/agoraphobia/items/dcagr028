@@ -8,5 +8,5 @@
         "inputType": "text"
     },
     "question": "Code (Most distressing and avoided situation):",
-    "schema:description": "CODE RESPONSE"
+    "description": "CODE RESPONSE"
 }

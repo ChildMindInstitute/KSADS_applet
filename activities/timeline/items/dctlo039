@@ -14,28 +14,28 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "Above average",
+                "value": 1,
+                "name": "Above average",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Average",
+                "value": 2,
+                "name": "Average",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "Below average",
+                "value": 3,
+                "name": "Below average",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 4,
-                "schema:name": "Far below average",
+                "value": 4,
+                "name": "Far below average",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "Not applicable",
+                "value": 9,
+                "name": "Not applicable",
                 "@type": "schema:option"
             }
         ]

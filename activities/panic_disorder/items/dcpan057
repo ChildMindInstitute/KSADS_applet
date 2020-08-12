@@ -9,5 +9,5 @@
         "inputType": "text"
     },
     "question": "How many attacks like this have you had in your life?",
-    "schema:description": "ATTACKS"
+    "description": "ATTACKS"
 }

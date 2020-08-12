@@ -8,5 +8,5 @@
         "inputType": "text"
     },
     "question": "Code (performance situation):",
-    "schema:description": "CODE RESPONSE"
+    "description": "CODE RESPONSE"
 }

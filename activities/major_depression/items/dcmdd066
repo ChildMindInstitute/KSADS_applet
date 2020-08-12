@@ -14,23 +14,23 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "Most of the time",
+                "value": 1,
+                "name": "Most of the time",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Sometimes",
+                "value": 2,
+                "name": "Sometimes",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "Not very often",
+                "value": 3,
+                "name": "Not very often",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "Don't know",
+                "value": 9,
+                "name": "Don't know",
                 "@type": "schema:option"
             }
         ]

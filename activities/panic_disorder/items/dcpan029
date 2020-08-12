@@ -14,23 +14,23 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 0,
-                "schema:name": "Never/not at all",
+                "value": 0,
+                "name": "Never/not at all",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 1,
-                "schema:name": "Sometimes/some days",
+                "value": 1,
+                "name": "Sometimes/some days",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Always/almost every day",
+                "value": 2,
+                "name": "Always/almost every day",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "Unknown",
+                "value": 9,
+                "name": "Unknown",
                 "@type": "schema:option"
             }
         ]

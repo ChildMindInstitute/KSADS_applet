@@ -8,103 +8,103 @@
         "multipleChoice": true,
         "choices": [
             {
-                "schema:value": 4,
-                "schema:name": "Separation Anxiety",
+                "value": 4,
+                "name": "Separation Anxiety",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 5,
-                "schema:name": "Generalized Anxiety/Overanxious Disorder",
+                "value": 5,
+                "name": "Generalized Anxiety/Overanxious Disorder",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 6,
-                "schema:name": "Attention Deficit Hyperactivity Disorder",
+                "value": 6,
+                "name": "Attention Deficit Hyperactivity Disorder",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 7,
-                "schema:name": "Oppositional Defiant Disorder",
+                "value": 7,
+                "name": "Oppositional Defiant Disorder",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 8,
-                "schema:name": "Conduct Disorder",
+                "value": 8,
+                "name": "Conduct Disorder",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "Specific Phobia",
+                "value": 9,
+                "name": "Specific Phobia",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 10,
-                "schema:name": "Social Anxiety",
+                "value": 10,
+                "name": "Social Anxiety",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 11,
-                "schema:name": "Panic",
+                "value": 11,
+                "name": "Panic",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 12,
-                "schema:name": "Agoraphobia",
+                "value": 12,
+                "name": "Agoraphobia",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 13,
-                "schema:name": "Obsessive-Compulsive Disorder",
+                "value": 13,
+                "name": "Obsessive-Compulsive Disorder",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 14,
-                "schema:name": "Eating",
+                "value": 14,
+                "name": "Eating",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 15,
-                "schema:name": "Major Depression",
+                "value": 15,
+                "name": "Major Depression",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 16,
-                "schema:name": "Mania",
+                "value": 16,
+                "name": "Mania",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 17,
-                "schema:name": "Suicide",
+                "value": 17,
+                "name": "Suicide",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 18,
-                "schema:name": "Psychosis",
+                "value": 18,
+                "name": "Psychosis",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 19,
-                "schema:name": "Post-Traumatic Stress Disorder",
+                "value": 19,
+                "name": "Post-Traumatic Stress Disorder",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 20,
-                "schema:name": "Tobacco",
+                "value": 20,
+                "name": "Tobacco",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 21,
-                "schema:name": "Caffeine",
+                "value": 21,
+                "name": "Caffeine",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 22,
-                "schema:name": "Alcohol",
+                "value": 22,
+                "name": "Alcohol",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 24,
-                "schema:name": "Drug/Substance",
+                "value": 24,
+                "name": "Drug/Substance",
                 "@type": "schema:option"
             }
         ]

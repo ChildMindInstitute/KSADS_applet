@@ -8,5 +8,5 @@
         "inputType": "text"
     },
     "question": "How many times did you try to cut down or quit and found that you could not?",
-    "schema:description": "TIMES"
+    "description": "TIMES"
 }

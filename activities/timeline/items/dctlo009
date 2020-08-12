@@ -11,111 +11,111 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 100,
-                "schema:name": "Pre-K",
+                "value": 100,
+                "name": "Pre-K",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 0,
-                "schema:name": "Kindergarten",
+                "value": 0,
+                "name": "Kindergarten",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 1,
-                "schema:name": "1st",
+                "value": 1,
+                "name": "1st",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "2nd",
+                "value": 2,
+                "name": "2nd",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "3rd",
+                "value": 3,
+                "name": "3rd",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 4,
-                "schema:name": "4th",
+                "value": 4,
+                "name": "4th",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 5,
-                "schema:name": "5th",
+                "value": 5,
+                "name": "5th",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 6,
-                "schema:name": "6th",
+                "value": 6,
+                "name": "6th",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 7,
-                "schema:name": "7th",
+                "value": 7,
+                "name": "7th",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 8,
-                "schema:name": "8th",
+                "value": 8,
+                "name": "8th",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "9th",
+                "value": 9,
+                "name": "9th",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 10,
-                "schema:name": "10th",
+                "value": 10,
+                "name": "10th",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 11,
-                "schema:name": "11th",
+                "value": 11,
+                "name": "11th",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 12,
-                "schema:name": "12th",
+                "value": 12,
+                "name": "12th",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 13,
-                "schema:name": "College Freshman",
+                "value": 13,
+                "name": "College Freshman",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 14,
-                "schema:name": "College Sophomore",
+                "value": 14,
+                "name": "College Sophomore",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 15,
-                "schema:name": "College Junior",
+                "value": 15,
+                "name": "College Junior",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 16,
-                "schema:name": "College Senior",
+                "value": 16,
+                "name": "College Senior",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 997,
-                "schema:name": "997",
+                "value": 997,
+                "name": "997",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 998,
-                "schema:name": "998",
+                "value": 998,
+                "name": "998",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 999,
-                "schema:name": "999",
+                "value": 999,
+                "name": "999",
                 "@type": "schema:option"
             }
         ]
     },
-    "schema:description": "GRADE"
+    "description": "GRADE"
 }

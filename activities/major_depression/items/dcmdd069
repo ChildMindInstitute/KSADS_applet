@@ -15,23 +15,23 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "Most days",
+                "value": 1,
+                "name": "Most days",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "About half of the days",
+                "value": 2,
+                "name": "About half of the days",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "Less than half the days",
+                "value": 3,
+                "name": "Less than half the days",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "Don't know",
+                "value": 9,
+                "name": "Don't know",
                 "@type": "schema:option"
             }
         ]

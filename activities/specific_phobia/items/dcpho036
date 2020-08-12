@@ -11,5 +11,5 @@
         "inputType": "text"
     },
     "question": "Fear 1",
-    "schema:description": "FEAR"
+    "description": "FEAR"
 }

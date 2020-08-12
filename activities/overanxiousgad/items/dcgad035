@@ -15,28 +15,28 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 0,
-                "schema:name": "Neither",
+                "value": 0,
+                "name": "Neither",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 1,
-                "schema:name": "Alcohol",
+                "value": 1,
+                "name": "Alcohol",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Drugs",
+                "value": 2,
+                "name": "Drugs",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "Both",
+                "value": 3,
+                "name": "Both",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "Don't know",
+                "value": 9,
+                "name": "Don't know",
                 "@type": "schema:option"
             }
         ]

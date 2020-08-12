@@ -14,8 +14,8 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "End Section",
+                "value": 1,
+                "name": "End Section",
                 "@type": "schema:option"
             }
         ]

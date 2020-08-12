@@ -11,5 +11,5 @@
         "inputType": "text"
     },
     "question": "Medication 3",
-    "schema:description": "MEDICATION"
+    "description": "MEDICATION"
 }

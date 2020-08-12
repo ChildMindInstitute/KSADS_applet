@@ -5,10 +5,10 @@
     ],
     "@type": "reproschema:Activity",
     "@id": "psychosis_schema",
-    "skos:prefLabel": "Psychosis",
-    "skos:altLabel": "psychosis_schema",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Psychosis",
+    "altLabel": "psychosis_schema",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "scoringLogic": {},
     "variableMap": [
         {

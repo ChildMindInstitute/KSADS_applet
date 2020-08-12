@@ -15,23 +15,23 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 0,
-                "schema:name": "No",
+                "value": 0,
+                "name": "No",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 1,
-                "schema:name": "Yes-Voluntary",
+                "value": 1,
+                "name": "Yes-Voluntary",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Yes-Involuntary",
+                "value": 2,
+                "name": "Yes-Involuntary",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "Unknown",
+                "value": 9,
+                "name": "Unknown",
                 "@type": "schema:option"
             }
         ]

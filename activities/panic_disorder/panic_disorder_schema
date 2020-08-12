@@ -5,10 +5,10 @@
     ],
     "@type": "reproschema:Activity",
     "@id": "panic_disorder_schema",
-    "skos:prefLabel": "Panic Disorder",
-    "skos:altLabel": "panic_disorder_schema",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Panic Disorder",
+    "altLabel": "panic_disorder_schema",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "scoringLogic": {},
     "variableMap": [
         {

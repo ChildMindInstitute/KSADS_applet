@@ -9,5 +9,5 @@
         "inputType": "text"
     },
     "question": "How many of these attacks have you had?",
-    "schema:description": "NUMBER OF ATTACKS"
+    "description": "NUMBER OF ATTACKS"
 }

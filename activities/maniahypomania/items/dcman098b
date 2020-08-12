@@ -11,5 +11,5 @@
         "inputType": "text"
     },
     "question": "Hallucination Example 2:",
-    "schema:description": "EXAMPLE"
+    "description": "EXAMPLE"
 }

@@ -8,5 +8,5 @@
         "inputType": "text"
     },
     "question": "How old were you when this event occurred?",
-    "schema:description": "AGE"
+    "description": "AGE"
 }

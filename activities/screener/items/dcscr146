@@ -8,53 +8,53 @@
         "multipleChoice": true,
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "Never had opportunity",
+                "value": 1,
+                "name": "Never had opportunity",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Never interested",
+                "value": 2,
+                "name": "Never interested",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "Didn't like smell",
+                "value": 3,
+                "name": "Didn't like smell",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 4,
-                "schema:name": "Exposure to smoke from parents or other family members",
+                "value": 4,
+                "name": "Exposure to smoke from parents or other family members",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 5,
-                "schema:name": "Concern about health risks",
+                "value": 5,
+                "name": "Concern about health risks",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 6,
-                "schema:name": "Religious or cultural beliefs",
+                "value": 6,
+                "name": "Religious or cultural beliefs",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 7,
-                "schema:name": "Parents told child not to smoke",
+                "value": 7,
+                "name": "Parents told child not to smoke",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 8,
-                "schema:name": "Not legal",
+                "value": 8,
+                "name": "Not legal",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "Unknown",
+                "value": 9,
+                "name": "Unknown",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 10,
-                "schema:name": "Other",
+                "value": 10,
+                "name": "Other",
                 "@type": "schema:option"
             }
         ]

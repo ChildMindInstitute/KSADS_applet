@@ -14,13 +14,13 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "Decreased",
+                "value": 1,
+                "name": "Decreased",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Increased",
+                "value": 2,
+                "name": "Increased",
                 "@type": "schema:option"
             }
         ]

@@ -14,28 +14,28 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "All of the day",
+                "value": 1,
+                "name": "All of the day",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Most of the day",
+                "value": 2,
+                "name": "Most of the day",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "Half of the day",
+                "value": 3,
+                "name": "Half of the day",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 4,
-                "schema:name": "Only a small part of the day",
+                "value": 4,
+                "name": "Only a small part of the day",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "Unknown",
+                "value": 9,
+                "name": "Unknown",
                 "@type": "schema:option"
             }
         ]

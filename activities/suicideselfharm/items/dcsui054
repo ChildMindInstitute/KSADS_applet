@@ -15,23 +15,23 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "No danger (no effects/held pills in hand)",
+                "value": 1,
+                "name": "No danger (no effects/held pills in hand)",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Moderate (10 seconds/briefly unconscious)",
+                "value": 2,
+                "name": "Moderate (10 seconds/briefly unconscious)",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "Severe (i.e. cut throat)",
+                "value": 3,
+                "name": "Severe (i.e. cut throat)",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "No information",
+                "value": 9,
+                "name": "No information",
                 "@type": "schema:option"
             }
         ]

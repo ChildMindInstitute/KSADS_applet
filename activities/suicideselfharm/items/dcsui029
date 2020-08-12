@@ -15,28 +15,28 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "Hanging",
+                "value": 1,
+                "name": "Hanging",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Cutting wrists",
+                "value": 2,
+                "name": "Cutting wrists",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "Overdose with pills",
+                "value": 3,
+                "name": "Overdose with pills",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 4,
-                "schema:name": "Other",
+                "value": 4,
+                "name": "Other",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "Unknown",
+                "value": 9,
+                "name": "Unknown",
                 "@type": "schema:option"
             }
         ]

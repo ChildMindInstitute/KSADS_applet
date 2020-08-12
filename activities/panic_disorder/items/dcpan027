@@ -14,33 +14,33 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 0,
-                "schema:name": "Never",
+                "value": 0,
+                "name": "Never",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 1,
-                "schema:name": "Rarely",
+                "value": 1,
+                "name": "Rarely",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Sometimes",
+                "value": 2,
+                "name": "Sometimes",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "Most of the time",
+                "value": 3,
+                "name": "Most of the time",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 4,
-                "schema:name": "All the time",
+                "value": 4,
+                "name": "All the time",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "Unknown",
+                "value": 9,
+                "name": "Unknown",
                 "@type": "schema:option"
             }
         ]

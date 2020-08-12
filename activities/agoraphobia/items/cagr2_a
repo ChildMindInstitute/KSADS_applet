@@ -14,13 +14,13 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "End Section",
+                "value": 1,
+                "name": "End Section",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Continue",
+                "value": 2,
+                "name": "Continue",
                 "@type": "schema:option"
             }
         ]

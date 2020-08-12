@@ -11,66 +11,66 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 0,
-                "schema:name": "0",
+                "value": 0,
+                "name": "0",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 1,
-                "schema:name": "1",
+                "value": 1,
+                "name": "1",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "2",
+                "value": 2,
+                "name": "2",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "3",
+                "value": 3,
+                "name": "3",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 4,
-                "schema:name": "4",
+                "value": 4,
+                "name": "4",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 5,
-                "schema:name": "5",
+                "value": 5,
+                "name": "5",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 6,
-                "schema:name": "6",
+                "value": 6,
+                "name": "6",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 7,
-                "schema:name": "7",
+                "value": 7,
+                "name": "7",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 8,
-                "schema:name": "8",
+                "value": 8,
+                "name": "8",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "9",
+                "value": 9,
+                "name": "9",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 10,
-                "schema:name": "10",
+                "value": 10,
+                "name": "10",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 998,
-                "schema:name": "Unknown ",
+                "value": 998,
+                "name": "Unknown ",
                 "@type": "schema:option"
             }
         ]
     },
-    "schema:description": "CODE RESPONSE"
+    "description": "CODE RESPONSE"
 }

@@ -8,5 +8,5 @@
         "inputType": "text"
     },
     "question": "How  many days of school did you miss? (lifetime)",
-    "schema:description": "DAYS"
+    "description": "DAYS"
 }

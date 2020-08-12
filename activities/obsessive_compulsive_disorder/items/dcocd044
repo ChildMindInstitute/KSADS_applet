@@ -14,23 +14,23 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "Less than 1 hour/day",
+                "value": 1,
+                "name": "Less than 1 hour/day",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "1-2 hours/day",
+                "value": 2,
+                "name": "1-2 hours/day",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "More than 2 hours/day",
+                "value": 3,
+                "name": "More than 2 hours/day",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "Unknown",
+                "value": 9,
+                "name": "Unknown",
                 "@type": "schema:option"
             }
         ]

@@ -15,33 +15,33 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 0,
-                "schema:name": "No pattern",
+                "value": 0,
+                "name": "No pattern",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 1,
-                "schema:name": "Winter",
+                "value": 1,
+                "name": "Winter",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Spring",
+                "value": 2,
+                "name": "Spring",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "Summer",
+                "value": 3,
+                "name": "Summer",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 4,
-                "schema:name": "Fall",
+                "value": 4,
+                "name": "Fall",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "Unknown",
+                "value": 9,
+                "name": "Unknown",
                 "@type": "schema:option"
             }
         ]

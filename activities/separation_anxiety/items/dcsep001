@@ -14,23 +14,23 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "Mom",
+                "value": 1,
+                "name": "Mom",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Dad",
+                "value": 2,
+                "name": "Dad",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "Both",
+                "value": 3,
+                "name": "Both",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 4,
-                "schema:name": "Other Adult",
+                "value": 4,
+                "name": "Other Adult",
                 "@type": "schema:option"
             }
         ]

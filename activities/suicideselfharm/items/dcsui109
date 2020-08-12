@@ -9,38 +9,38 @@
         "multipleChoice": true,
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "Depression",
+                "value": 1,
+                "name": "Depression",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Mania",
+                "value": 2,
+                "name": "Mania",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "Mixed state",
+                "value": 3,
+                "name": "Mixed state",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 4,
-                "schema:name": "Psychosis",
+                "value": 4,
+                "name": "Psychosis",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 5,
-                "schema:name": "Alcohol abuse",
+                "value": 5,
+                "name": "Alcohol abuse",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 6,
-                "schema:name": "Drug abuse",
+                "value": 6,
+                "name": "Drug abuse",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 7,
-                "schema:name": "Other",
+                "value": 7,
+                "name": "Other",
                 "@type": "schema:option"
             }
         ]

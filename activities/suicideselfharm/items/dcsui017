@@ -15,23 +15,23 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "No intent or minimal intent/manipulative gesture",
+                "value": 1,
+                "name": "No intent or minimal intent/manipulative gesture",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Definite intent (but ambivalent)",
+                "value": 2,
+                "name": "Definite intent (but ambivalent)",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "Serious intent (expected to die)",
+                "value": 3,
+                "name": "Serious intent (expected to die)",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "No information",
+                "value": 9,
+                "name": "No information",
                 "@type": "schema:option"
             }
         ]

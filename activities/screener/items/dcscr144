@@ -8,5 +8,5 @@
         "inputType": "text"
     },
     "question": "Name of substance:",
-    "schema:description": "SUBSTANCE"
+    "description": "SUBSTANCE"
 }

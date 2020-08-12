@@ -14,18 +14,18 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "Before seven year old",
+                "value": 1,
+                "name": "Before seven year old",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Not before seven years old",
+                "value": 2,
+                "name": "Not before seven years old",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "Unknown",
+                "value": 9,
+                "name": "Unknown",
                 "@type": "schema:option"
             }
         ]

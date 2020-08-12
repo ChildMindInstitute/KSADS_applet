@@ -14,23 +14,23 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "Never",
+                "value": 1,
+                "name": "Never",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Sometimes",
+                "value": 2,
+                "name": "Sometimes",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "Always",
+                "value": 3,
+                "name": "Always",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "Unknown",
+                "value": 9,
+                "name": "Unknown",
                 "@type": "schema:option"
             }
         ]

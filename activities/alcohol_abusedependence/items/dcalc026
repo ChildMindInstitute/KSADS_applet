@@ -14,28 +14,28 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "Once",
+                "value": 1,
+                "name": "Once",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Two or three times",
+                "value": 2,
+                "name": "Two or three times",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "Four to six times",
+                "value": 3,
+                "name": "Four to six times",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 4,
-                "schema:name": "Seven to ten times",
+                "value": 4,
+                "name": "Seven to ten times",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 5,
-                "schema:name": "More than ten times",
+                "value": 5,
+                "name": "More than ten times",
                 "@type": "schema:option"
             }
         ]

@@ -14,28 +14,28 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "Less than once/week",
+                "value": 1,
+                "name": "Less than once/week",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "1-2 times/week",
+                "value": 2,
+                "name": "1-2 times/week",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "3-5 times/week",
+                "value": 3,
+                "name": "3-5 times/week",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 4,
-                "schema:name": "6-7 times/week",
+                "value": 4,
+                "name": "6-7 times/week",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "Unknown",
+                "value": 9,
+                "name": "Unknown",
                 "@type": "schema:option"
             }
         ]

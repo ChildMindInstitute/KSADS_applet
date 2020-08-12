@@ -8,23 +8,23 @@
         "multipleChoice": true,
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "Out-patient (Going to see someone in an office)",
+                "value": 1,
+                "name": "Out-patient (Going to see someone in an office)",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "In-patient (Staying in a hospital)",
+                "value": 2,
+                "name": "In-patient (Staying in a hospital)",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "Special classes at school (IEP etc)",
+                "value": 3,
+                "name": "Special classes at school (IEP etc)",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 4,
-                "schema:name": "Other",
+                "value": 4,
+                "name": "Other",
                 "@type": "schema:option"
             }
         ]

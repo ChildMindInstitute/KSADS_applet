@@ -8,28 +8,28 @@
         "multipleChoice": true,
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "With family",
+                "value": 1,
+                "name": "With family",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "With friends",
+                "value": 2,
+                "name": "With friends",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "Religious occasions",
+                "value": 3,
+                "name": "Religious occasions",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 4,
-                "schema:name": "Alone",
+                "value": 4,
+                "name": "Alone",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 5,
-                "schema:name": "Other",
+                "value": 5,
+                "name": "Other",
                 "@type": "schema:option"
             }
         ]

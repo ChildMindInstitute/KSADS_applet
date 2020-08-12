@@ -14,28 +14,28 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "Nearly every day",
+                "value": 1,
+                "name": "Nearly every day",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "A few days a week",
+                "value": 2,
+                "name": "A few days a week",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "About once a week",
+                "value": 3,
+                "name": "About once a week",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 4,
-                "schema:name": "Less than once a week",
+                "value": 4,
+                "name": "Less than once a week",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "Unknown",
+                "value": 9,
+                "name": "Unknown",
                 "@type": "schema:option"
             }
         ]

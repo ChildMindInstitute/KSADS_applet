@@ -14,33 +14,33 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "Beer",
+                "value": 1,
+                "name": "Beer",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Wine",
+                "value": 2,
+                "name": "Wine",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "Whiskey",
+                "value": 3,
+                "name": "Whiskey",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 4,
-                "schema:name": "Vodka",
+                "value": 4,
+                "name": "Vodka",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 5,
-                "schema:name": "Gin",
+                "value": 5,
+                "name": "Gin",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 6,
-                "schema:name": "Other",
+                "value": 6,
+                "name": "Other",
                 "@type": "schema:option"
             }
         ]

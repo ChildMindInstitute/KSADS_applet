@@ -5,10 +5,10 @@
     ],
     "@type": "reproschema:Activity",
     "@id": "specific_phobia_schema",
-    "skos:prefLabel": "Specific Phobia",
-    "skos:altLabel": "specific_phobia_schema",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Specific Phobia",
+    "altLabel": "specific_phobia_schema",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "scoringLogic": {},
     "variableMap": [
         {

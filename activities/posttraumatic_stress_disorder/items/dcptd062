@@ -11,5 +11,5 @@
         "inputType": "text"
     },
     "question": "Code (Professional/Treatment 3):",
-    "schema:description": "CODE RESPONSE"
+    "description": "CODE RESPONSE"
 }

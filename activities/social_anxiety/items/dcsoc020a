@@ -8,5 +8,5 @@
         "inputType": "text"
     },
     "question": "Code (social situation):",
-    "schema:description": "CODE RESPONSE"
+    "description": "CODE RESPONSE"
 }

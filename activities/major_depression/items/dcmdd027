@@ -15,23 +15,23 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "Not at all better",
+                "value": 1,
+                "name": "Not at all better",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "A little better",
+                "value": 2,
+                "name": "A little better",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "Somewhat better",
+                "value": 3,
+                "name": "Somewhat better",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 4,
-                "schema:name": "A lot better",
+                "value": 4,
+                "name": "A lot better",
                 "@type": "schema:option"
             }
         ]

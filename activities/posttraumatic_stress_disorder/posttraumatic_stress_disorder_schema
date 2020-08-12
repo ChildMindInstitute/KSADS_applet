@@ -5,10 +5,10 @@
     ],
     "@type": "reproschema:Activity",
     "@id": "posttraumatic_stress_disorder_schema",
-    "skos:prefLabel": "Post Traumatic Stress Disorder",
-    "skos:altLabel": "posttraumatic_stress_disorder_schema",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Post Traumatic Stress Disorder",
+    "altLabel": "posttraumatic_stress_disorder_schema",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "scoringLogic": {},
     "variableMap": [
         {

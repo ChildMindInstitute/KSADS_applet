@@ -5,10 +5,10 @@
     ],
     "@type": "reproschema:Activity",
     "@id": "eating_disorders_schema",
-    "skos:prefLabel": "Eating Disorders",
-    "skos:altLabel": "eating_disorders_schema",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Eating Disorders",
+    "altLabel": "eating_disorders_schema",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "scoringLogic": {},
     "variableMap": [
         {

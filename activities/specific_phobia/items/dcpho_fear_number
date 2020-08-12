@@ -11,18 +11,18 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "One",
+                "value": 1,
+                "name": "One",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Two",
+                "value": 2,
+                "name": "Two",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "Three",
+                "value": 3,
+                "name": "Three",
                 "@type": "schema:option"
             }
         ]

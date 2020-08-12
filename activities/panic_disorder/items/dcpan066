@@ -11,5 +11,5 @@
         "inputType": "text"
     },
     "question": "Specify (Professional/Treatment 1):",
-    "schema:description": "PROFESSIONAL/TREATMENT"
+    "description": "PROFESSIONAL/TREATMENT"
 }

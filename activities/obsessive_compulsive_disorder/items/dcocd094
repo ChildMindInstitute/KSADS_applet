@@ -14,23 +14,23 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "mild problem: occasionally (less than weekly) acquires items not needed or acquires a few unneeded items",
+                "value": 1,
+                "name": "mild problem: occasionally (less than weekly) acquires items not needed or acquires a few unneeded items",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "moderate: regularly (several times weekly) acquires items not needed or acquires some unneeded items",
+                "value": 2,
+                "name": "moderate: regularly (several times weekly) acquires items not needed or acquires some unneeded items",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "severe: very often (daily) acquires items not needed or acquires large numbers of unneeded items",
+                "value": 3,
+                "name": "severe: very often (daily) acquires items not needed or acquires large numbers of unneeded items",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "Unknown",
+                "value": 9,
+                "name": "Unknown",
                 "@type": "schema:option"
             }
         ]

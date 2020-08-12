@@ -5,10 +5,10 @@
     ],
     "@type": "reproschema:Activity",
     "@id": "maniahypomania_schema",
-    "skos:prefLabel": "Mania/Hypomania",
-    "skos:altLabel": "maniahypomania_schema",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Mania/Hypomania",
+    "altLabel": "maniahypomania_schema",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "scoringLogic": {},
     "variableMap": [
         {

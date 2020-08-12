@@ -8,5 +8,5 @@
         "inputType": "text"
     },
     "question": "How many hours earlier?",
-    "schema:description": "HOURS"
+    "description": "HOURS"
 }

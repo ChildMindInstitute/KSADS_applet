@@ -15,23 +15,23 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 0,
-                "schema:name": "No",
+                "value": 0,
+                "name": "No",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 1,
-                "schema:name": "Yes-Emergency Room",
+                "value": 1,
+                "name": "Yes-Emergency Room",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "Yes-Inpatient/Medical Ward",
+                "value": 2,
+                "name": "Yes-Inpatient/Medical Ward",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "Unknown",
+                "value": 9,
+                "name": "Unknown",
                 "@type": "schema:option"
             }
         ]

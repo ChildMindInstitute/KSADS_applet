@@ -5,10 +5,10 @@
     ],
     "@type": "reproschema:Activity",
     "@id": "suicideselfharm_schema",
-    "skos:prefLabel": "Suicide/Self-Harm",
-    "skos:altLabel": "suicideselfharm_schema",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Suicide/Self-Harm",
+    "altLabel": "suicideselfharm_schema",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "scoringLogic": {},
     "variableMap": [
         {

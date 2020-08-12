@@ -5,10 +5,10 @@
     ],
     "@type": "reproschema:Activity",
     "@id": "conduct_disorder_schema",
-    "skos:prefLabel": "Conduct Disorder",
-    "skos:altLabel": "conduct_disorder_schema",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Conduct Disorder",
+    "altLabel": "conduct_disorder_schema",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "scoringLogic": {},
     "variableMap": [
         {

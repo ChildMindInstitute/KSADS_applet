@@ -14,33 +14,33 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
-                "schema:name": "Only had a few scattered over many years",
+                "value": 1,
+                "name": "Only had a few scattered over many years",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 2,
-                "schema:name": "A few attacks per year for several years",
+                "value": 2,
+                "name": "A few attacks per year for several years",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 3,
-                "schema:name": "Many attacks per year spread out during the year",
+                "value": 3,
+                "name": "Many attacks per year spread out during the year",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 4,
-                "schema:name": "Panic attacks clustered together over a brief period",
+                "value": 4,
+                "name": "Panic attacks clustered together over a brief period",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 5,
-                "schema:name": "Many attacks per year that came in groups during the year",
+                "value": 5,
+                "name": "Many attacks per year that came in groups during the year",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 9,
-                "schema:name": "Unknown",
+                "value": 9,
+                "name": "Unknown",
                 "@type": "schema:option"
             }
         ]

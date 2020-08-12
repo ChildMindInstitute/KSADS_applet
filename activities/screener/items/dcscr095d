@@ -11,5 +11,5 @@
         "inputType": "text"
     },
     "question": "Example 4",
-    "schema:description": "EXAMPLE"
+    "description": "EXAMPLE"
 }

@@ -5,10 +5,10 @@
     ],
     "@type": "reproschema:Activity",
     "@id": "obsessive_compulsive_disorder_schema",
-    "skos:prefLabel": "Obsessive Compulsive Disorder",
-    "skos:altLabel": "obsessive_compulsive_disorder_schema",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "prefLabel": "Obsessive Compulsive Disorder",
+    "altLabel": "obsessive_compulsive_disorder_schema",
+    "schemaVersion": "0.0.1",
+    "version": "0.0.1",
     "scoringLogic": {},
     "variableMap": [
         {
