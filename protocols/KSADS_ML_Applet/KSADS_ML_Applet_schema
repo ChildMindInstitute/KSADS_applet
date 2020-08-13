@@ -8,7 +8,7 @@
     "prefLabel": "KSADS v0.28",
     "altLabel": "KSADS_ML_Applet_schema",
     "description": "KSADS Interview",
-    "about": "https://raw.githubusercontent.com/hotavocado/KSADS_ML_Applet/master/README.md",
+    "landingPage": "https://raw.githubusercontent.com/hotavocado/KSADS_ML_Applet/master/README.md",
     "schemaVersion": "0.0.1",
     "version": "0.0.1",
     "variableMap": [
