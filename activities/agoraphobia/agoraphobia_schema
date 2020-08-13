@@ -5,10 +5,10 @@
     ],
     "@type": "reproschema:Activity",
     "@id": "agoraphobia_schema",
-    "prefLabel": "Agoraphobia",
-    "altLabel": "agoraphobia_schema",
-    "schemaVersion": "0.0.1",
-    "version": "0.0.1",
+    "skos:prefLabel": "Agoraphobia",
+    "skos:altLabel": "agoraphobia_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
     "scoringLogic": {},
     "ui": {
         "order": [
