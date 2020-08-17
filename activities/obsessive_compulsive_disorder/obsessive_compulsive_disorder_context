@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "obsessive_compulsive_disorder": "https://raw.githubusercontent.com/hotavocado/KSADS_ML_Applet/master/activities/obsessive_compulsive_disorder/items/",
+        "obsessive_compulsive_disorder": "https://raw.githubusercontent.com/ChildMindInstitute/KSADS_applet/master/activities/obsessive_compulsive_disorder/items/",
         "ocd_title": {
             "@id": "obsessive_compulsive_disorder:ocd_title",
             "@type": "@id"

@@ -1,7 +1,7 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/hotavocado/KSADS_ML_Applet/master/activities/specific_phobia/specific_phobia_context"
+        "https://raw.githubusercontent.com/ChildMindInstitute/KSADS_applet/master/activities/specific_phobia/specific_phobia_context"
     ],
     "@type": "reproschema:Activity",
     "@id": "specific_phobia_schema",

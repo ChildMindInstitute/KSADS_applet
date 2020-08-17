@@ -1,14 +1,14 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/hotavocado/KSADS_ML_Applet/master/protocols/KSADS_ML_Applet/KSADS_ML_Applet_context"
+        "https://raw.githubusercontent.com/ChildMindInstitute/KSADS_applet/master/protocols/KSADS_ML_Applet/KSADS_ML_Applet_context"
     ],
     "@type": "reproschema:Protocol",
     "@id": "KSADS_ML_Applet_schema",
     "skos:prefLabel": "KSADS v0.28",
     "skos:altLabel": "KSADS_ML_Applet_schema",
     "schema:description": "KSADS Interview",
-    "landingPage": "https://raw.githubusercontent.com/hotavocado/KSADS_ML_Applet/master/README.md",
+    "landingPage": "https://raw.githubusercontent.com/ChildMindInstitute/KSADS_applet/master/README.md",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "ui": {

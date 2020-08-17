@@ -1,7 +1,7 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/hotavocado/KSADS_ML_Applet/master/activities/social_anxiety/social_anxiety_context"
+        "https://raw.githubusercontent.com/ChildMindInstitute/KSADS_applet/master/activities/social_anxiety/social_anxiety_context"
     ],
     "@type": "reproschema:Activity",
     "@id": "social_anxiety_schema",

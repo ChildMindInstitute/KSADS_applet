@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "overanxiousgad": "https://raw.githubusercontent.com/hotavocado/KSADS_ML_Applet/master/activities/overanxiousgad/items/",
+        "overanxiousgad": "https://raw.githubusercontent.com/ChildMindInstitute/KSADS_applet/master/activities/overanxiousgad/items/",
         "gad_title": {
             "@id": "overanxiousgad:gad_title",
             "@type": "@id"

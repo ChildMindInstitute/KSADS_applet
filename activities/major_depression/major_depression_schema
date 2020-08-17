@@ -1,7 +1,7 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/hotavocado/KSADS_ML_Applet/master/activities/major_depression/major_depression_context"
+        "https://raw.githubusercontent.com/ChildMindInstitute/KSADS_applet/master/activities/major_depression/major_depression_context"
     ],
     "@type": "reproschema:Activity",
     "@id": "major_depression_schema",

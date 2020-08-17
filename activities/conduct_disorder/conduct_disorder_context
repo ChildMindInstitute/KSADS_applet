@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "conduct_disorder": "https://raw.githubusercontent.com/hotavocado/KSADS_ML_Applet/master/activities/conduct_disorder/items/",
+        "conduct_disorder": "https://raw.githubusercontent.com/ChildMindInstitute/KSADS_applet/master/activities/conduct_disorder/items/",
         "conduct_title": {
             "@id": "conduct_disorder:conduct_title",
             "@type": "@id"

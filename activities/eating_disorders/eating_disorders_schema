@@ -1,7 +1,7 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/hotavocado/KSADS_ML_Applet/master/activities/eating_disorders/eating_disorders_context"
+        "https://raw.githubusercontent.com/ChildMindInstitute/KSADS_applet/master/activities/eating_disorders/eating_disorders_context"
     ],
     "@type": "reproschema:Activity",
     "@id": "eating_disorders_schema",

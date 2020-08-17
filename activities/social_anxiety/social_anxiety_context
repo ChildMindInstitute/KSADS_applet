@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "social_anxiety": "https://raw.githubusercontent.com/hotavocado/KSADS_ML_Applet/master/activities/social_anxiety/items/",
+        "social_anxiety": "https://raw.githubusercontent.com/ChildMindInstitute/KSADS_applet/master/activities/social_anxiety/items/",
         "social_anx_title": {
             "@id": "social_anxiety:social_anx_title",
             "@type": "@id"

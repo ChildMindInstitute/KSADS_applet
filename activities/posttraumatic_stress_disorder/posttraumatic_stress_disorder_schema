@@ -1,7 +1,7 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/hotavocado/KSADS_ML_Applet/master/activities/posttraumatic_stress_disorder/posttraumatic_stress_disorder_context"
+        "https://raw.githubusercontent.com/ChildMindInstitute/KSADS_applet/master/activities/posttraumatic_stress_disorder/posttraumatic_stress_disorder_context"
     ],
     "@type": "reproschema:Activity",
     "@id": "posttraumatic_stress_disorder_schema",

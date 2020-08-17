@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "tobacco": "https://raw.githubusercontent.com/hotavocado/KSADS_ML_Applet/master/activities/tobacco/items/",
+        "tobacco": "https://raw.githubusercontent.com/ChildMindInstitute/KSADS_applet/master/activities/tobacco/items/",
         "tobacco_title": {
             "@id": "tobacco:tobacco_title",
             "@type": "@id"

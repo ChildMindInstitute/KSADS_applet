@@ -1,7 +1,7 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/hotavocado/KSADS_ML_Applet/master/activities/timeline/timeline_context"
+        "https://raw.githubusercontent.com/ChildMindInstitute/KSADS_applet/master/activities/timeline/timeline_context"
     ],
     "@type": "reproschema:Activity",
     "@id": "timeline_schema",

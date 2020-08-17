@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "alcohol_abusedependence": "https://raw.githubusercontent.com/hotavocado/KSADS_ML_Applet/master/activities/alcohol_abusedependence/items/",
+        "alcohol_abusedependence": "https://raw.githubusercontent.com/ChildMindInstitute/KSADS_applet/master/activities/alcohol_abusedependence/items/",
         "alcohol_title": {
             "@id": "alcohol_abusedependence:alcohol_title",
             "@type": "@id"

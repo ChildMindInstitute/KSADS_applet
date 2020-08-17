@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "psychosis": "https://raw.githubusercontent.com/hotavocado/KSADS_ML_Applet/master/activities/psychosis/items/",
+        "psychosis": "https://raw.githubusercontent.com/ChildMindInstitute/KSADS_applet/master/activities/psychosis/items/",
         "psychosis_title": {
             "@id": "psychosis:psychosis_title",
             "@type": "@id"

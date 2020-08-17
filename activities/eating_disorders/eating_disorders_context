@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "eating_disorders": "https://raw.githubusercontent.com/hotavocado/KSADS_ML_Applet/master/activities/eating_disorders/items/",
+        "eating_disorders": "https://raw.githubusercontent.com/ChildMindInstitute/KSADS_applet/master/activities/eating_disorders/items/",
         "eating_title": {
             "@id": "eating_disorders:eating_title",
             "@type": "@id"

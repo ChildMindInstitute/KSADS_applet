@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "separation_anxiety": "https://raw.githubusercontent.com/hotavocado/KSADS_ML_Applet/master/activities/separation_anxiety/items/",
+        "separation_anxiety": "https://raw.githubusercontent.com/ChildMindInstitute/KSADS_applet/master/activities/separation_anxiety/items/",
         "seperation_anxiety_title": {
             "@id": "separation_anxiety:seperation_anxiety_title",
             "@type": "@id"
