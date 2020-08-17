@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "oppositional_defiant_disorder": "https://raw.githubusercontent.com/hotavocado/KSADS_ML_Applet/master/activities/oppositional_defiant_disorder/items/",
+        "oppositional_defiant_disorder": "https://raw.githubusercontent.com/ChildMindInstitute/KSADS_applet/master/activities/oppositional_defiant_disorder/items/",
         "odd_title": {
             "@id": "oppositional_defiant_disorder:odd_title",
             "@type": "@id"

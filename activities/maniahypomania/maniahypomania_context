@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "maniahypomania": "https://raw.githubusercontent.com/hotavocado/KSADS_ML_Applet/master/activities/maniahypomania/items/",
+        "maniahypomania": "https://raw.githubusercontent.com/ChildMindInstitute/KSADS_applet/master/activities/maniahypomania/items/",
         "mania_title": {
             "@id": "maniahypomania:mania_title",
             "@type": "@id"

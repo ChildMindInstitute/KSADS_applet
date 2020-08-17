@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "screener_checklist": "https://raw.githubusercontent.com/hotavocado/KSADS_ML_Applet/master/activities/screener_checklist/items/",
+        "screener_checklist": "https://raw.githubusercontent.com/ChildMindInstitute/KSADS_applet/master/activities/screener_checklist/items/",
         "checklist_title": {
             "@id": "screener_checklist:checklist_title",
             "@type": "@id"
