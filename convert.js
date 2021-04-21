@@ -7,8 +7,8 @@ const protocolName = "KSADS_ML_Applet"
 const protocolDisplayName = "KSADS v0.28"
 
 //2. create your raw github repo URL
-const userName = 'hotavocado'
-const repoName = 'KSADS_ML_Applet'
+const userName = 'ChildMindInstitute'
+const repoName = 'DBT-pilot'
 const branchName = 'master'
 
 let yourRepoURL = `https://raw.githubusercontent.com/${userName}/${repoName}/${branchName}`
@@ -17,7 +17,7 @@ let yourRepoURL = `https://raw.githubusercontent.com/${userName}/${repoName}/${b
 let protocolDescription = "KSADS Interview"
 
 //4. where are you hosting your images?
-let imagePath = 'https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH2/master/images/'
+let imagePath = `https://raw.githubusercontent.com/${userName}/${repoName}/${branchName}/images/png/`
 
 /* hard coded activity display object
 let activityDisplayObj = {
@@ -28,7 +28,7 @@ let activityDisplayObj = {
 };
 */
 //5. Path to your README.md file, that will show up in the 'About' tab of the applet
-let protocolAboutPath = `${yourRepoURL}/README.md`
+let protocolAboutPath = `${yourRepoURL}/protocols/${protocolName}/README.md`
 
 
 /* ************ Constants **************************************************** */
@@ -63,13 +63,13 @@ const schemaMap = {
 const inputTypeMap = {
     "calc": "number",
     "checkbox": "radio",
-    "descriptive": "markdown-message",
+    "descriptive": "static",
     "dropdown": "select",
     "notes": "text"
 };
 
 const uiList = ['inputType', 'shuffle', 'allow'];
-const responseList = ['type'];
+const responseList = ['type', 'requiredValue'];
 const defaultLanguage = 'en';
 const datas = {};
 
@@ -90,9 +90,8 @@ let visibilityObj = {};
 let scoresObj = {};
 let blObj = [];
 let languages = [];
-let variableMap = [];
-let protocolVariableMap = [];
-let protocolVisibilityObj = {};
+let addProperties = [];
+let protocolAddProperties = [];
 let protocolOrder = [];
 
 
@@ -128,7 +127,7 @@ csv
             let formContextUrl = `${yourRepoURL}/activities/${form}/${form}_context`;
             scoresObj = {};
             visibilityObj = {};
-            variableMap = [];
+            addProperties = [];
             //console.log(fieldList[0]['Form Display Name']);
             activityDisplayName = (fieldList[0]['Form Display Name'] == undefined | fieldList[0]['Form Display Name'] == '') ? fieldList[0]['Form Name'] : fieldList[0]['Form Display Name'];
             activityDescription = fieldList[0]['Form Note'];
@@ -271,6 +270,7 @@ function processRow(form, data){
                 // split string wrt '|' to get each choice
                 let minValVal = (data[current_key]);
               
+                // insert 'multiplechoices' key inside responseOptions of the item
                 if (rowData.hasOwnProperty('responseOptions')) {
                     rowData.responseOptions[schemaMap[current_key]] = minValVal;
                 }
@@ -286,6 +286,7 @@ function processRow(form, data){
                 // split string wrt '|' to get each choice
                 let maxValVal = (data[current_key]);
               
+                // insert 'multiplechoices' key inside responseOptions of the item
                 if (rowData.hasOwnProperty('responseOptions')) {
                     rowData.responseOptions[schemaMap[current_key]] = maxValVal;
                 }
@@ -296,18 +297,20 @@ function processRow(form, data){
             }
 
             //parse required
-            else if (schemaMap[current_key] === 'requiredValue' && data[current_key] !== '') {
+            //else if (schemaMap[current_key] === 'requiredValue' && data[current_key] !== '') {
 
-                 let requiredVal = (data[current_key]);
+                // split string wrt '|' to get each choice
+                //let requiredVal = (data[current_key]);
               
-                  if (rowData.hasOwnProperty('responseOptions')) {
-                    rowData.responseOptions[schemaMap[current_key]] = requiredVal;
-                }
-                else {
-                    rspObj[schemaMap[current_key]] = requiredVal;
-                   rowData['responseOptions'] = rspObj;
-                }
-            }
+                // insert 'multiplechoices' key inside responseOptions of the item
+                //if (rowData.hasOwnProperty('responseOptions')) {
+                //    rowData.responseOptions[schemaMap[current_key]] = requiredVal;
+                //}
+                //else {
+                //    rspObj[schemaMap[current_key]] = requiredVal;
+                //   rowData['responseOptions'] = rspObj;
+                //}
+            //}
 /*
             //parse @type
             else if (schemaMap[current_key] === '@type') {
@@ -338,7 +341,7 @@ function processRow(form, data){
                         let cnameList = cs[1];
                         choiceObj['schema:name'] = cnameList;
                         choiceObj['@type'] = "schema:option";
-                        choiceObj['schema:image'] = imagePath + cs[2] + '.png';
+                        choiceObj['schema:image'] = imagePath + cs[2];
                         choiceList.push(choiceObj);
                     } else {
                     // for no image, create name and value pair for each choice option
@@ -407,8 +410,6 @@ function processRow(form, data){
                     condition = condition.replace(/\ and\ /g, " && ");
                     condition = condition.replace(/\ or\ /g, " || ");
                     re = RegExp(/\[([^\]]*)\]/g);
-                    condition = condition.replace(re, "$1");
-                    re = RegExp(/\'([^\']*)'/g);
                     condition = condition.replace(re, "$1");
                 }
                 visibilityObj[[data['Variable / Field Name']]] = condition;
@@ -481,8 +482,8 @@ function processRow(form, data){
 
     const field_name = data['Variable / Field Name'];
 
-    // add field to variableMap
-    variableMap.push({"variableName": field_name, "isAbout": field_name});
+    // add field to addProperties
+    addProperties.push({"variableName": field_name, "isAbout": field_name, "isVis": visibilityObj[[data['Variable / Field Name']]]});
 
     // check if 'order' object exists for the activity and add the items to the respective order array
     if (!order[form]) {
@@ -507,17 +508,15 @@ function createFormSchema(form, formContextUrl) {
         "@type": "reproschema:Activity",
         "@id": `${form}_schema`,
         "skos:prefLabel": activityDisplayName,
-        "skos:altLabel": `${form}_schema`,
         "schema:description": activityDescription,
         "schema:schemaVersion": "0.0.1",
         "schema:version": "0.0.1",
         // todo: preamble: Field Type = descriptive represents preamble in the CSV file., it also has branching logic. so should preamble be an item in our schema?
         "scoringLogic": scoresObj,
-        "variableMap": variableMap,
         "ui": {
+            "addProperties": addProperties,
             "order": order[form],
-            "shuffle": false,
-            "visibility": visibilityObj
+            "shuffle": false
         }
     };
     const op = JSON.stringify(jsonLD, null, 4);
@@ -533,10 +532,9 @@ function createFormSchema(form, formContextUrl) {
 function processActivities (activityName) {
 
     let condition = true; // for items visible by default
-    protocolVisibilityObj[activityName] = condition;
-    
-    // add activity to variableMap and Order
-    protocolVariableMap.push({"variableName": activityName, "isAbout": activityName});
+   
+    // add activity to addProperties and Order
+ protocolAddProperties.push({"variableName": activityName, "isAbout": activityName, "isVis": condition});
     protocolOrder.push(activityName);
 
 }
@@ -544,21 +542,18 @@ function processActivities (activityName) {
 function createProtocolSchema(protocolName, protocolContextUrl) {
     let protocolSchema = {
         "@context": [schemaContextUrl, protocolContextUrl],
-        "@type": "reproschema:ActivitySet",
+        "@type": "reproschema:Protocol",
         "@id": `${protocolName}_schema`,
         "skos:prefLabel": protocolDisplayName,
-        "skos:altLabel": `${protocolName}_schema`,
         "schema:description": protocolDescription,
-        "schema:about": protocolAboutPath,
+        "landingPage": protocolAboutPath,
         "schema:schemaVersion": "0.0.1",
         "schema:version": "0.0.1",
         // todo: preamble: Field Type = descriptive represents preamble in the CSV file., it also has branching logic. so should preamble be an item in our schema?
-        "variableMap": protocolVariableMap,
         "ui": {
+            "addProperties": protocolAddProperties,
             "order": protocolOrder,
-            "shuffle": false,
-            //"activity_display_name": activityDisplayObj,
-            "visibility": protocolVisibilityObj
+            "shuffle": false
         }
     };
     const op = JSON.stringify(protocolSchema, null, 4);
